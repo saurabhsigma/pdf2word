@@ -1,0 +1,78 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    flex: 1;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: #2E6A6A;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.title h1{
+    font-size: 90px;
+    color: #2E6A6A;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.title p {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
+.upload-area{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.upload-area label{
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.upload-area input{
+    border-radius: 15px;
+    border-color: #2E6A6A;
+    width: 200px;
+    height: 30px;
+}
+
+.upload-area button{
+    color: white;
+    border: none;
+    background-color: #2E6A6A;
+    border-radius: 15px;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+}
+
+
+.footer {
+    background-color:#2E6A6A; /* Example background color */
+    color: #fff; /* Example text color */
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
