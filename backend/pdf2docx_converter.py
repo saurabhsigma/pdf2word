@@ -1,4 +1,6 @@
 # from pdf2docx import Converter
+from collections.abc import Iterable
+# from collections import Iterable
 
 # # Define the path to your PDF and output DOCX files
 # pdf_path = './input.pdf'

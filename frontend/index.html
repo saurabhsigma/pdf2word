@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,5 +27,26 @@
         </footer>
 
     <script src="script.js"></script>
+</body>
+</html> -->
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF to DOCX Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PDF to DOCX Converter</h1>
+        <form id="upload-form" enctype="multipart/form-data">
+            <input type="file" id="pdf-file" name="file" accept=".pdf" required>
+            <button type="submit">Convert</button>
+        </form>
+        <a id="download-link" style="display: none;">Download DOCX</a>
+    </div>
+    <script src="scripts.js"></script>
 </body>
 </html>

@@ -1,6 +1,8 @@
 from flask import Flask, request, jsonify, send_from_directory
 from pdf2docx_converter import convert_pdf_to_docx
 import os
+from collections.abc import Iterable
+
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'backend/output/'
